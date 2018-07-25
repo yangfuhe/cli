@@ -1,7 +1,7 @@
 {
-  "name": "homework_front",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,7 +9,7 @@
     "build:pro": "cross-env NODE_ENV=production webpack --config webpack.prod.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "谢诗意 <shiyi.xie@xiaobao100.com>",
+  "author": "{{author}}",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.3.0",
