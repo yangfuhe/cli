@@ -1,0 +1,92 @@
+.modal{
+    a{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(0,0,0,0.5);
+        z-index: 99;
+    }
+    .modal{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .showModal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width:28rem;
+        min-height:13.4rem;
+        background:rgba(255,255,255,1);
+        border-radius:1.2rem;
+        font-family:PingFangSC-Regular;
+        z-index: 999;
+        position: fixed;
+        top: 35%;
+        left: 50%;
+        margin-left: -14rem;
+        padding-top: 2.6rem;
+
+        .iconspan{
+            position: relative;
+            margin-bottom: 1rem;
+            .iconfont{
+                font-size: 3.8rem;
+            }
+            .icon-tongyong_Success-solid{
+                color: #53CD67;
+            }
+            .icon-tongyong_Error-solid{
+                color: #E64340;
+            }
+            .icon-tongyong_Information-solid{
+                color: #E64340;
+            }
+
+        }
+        
+        .modaltitle{
+            color: #151E26;
+            font-size: 1.7rem;
+            line-height: 2.4rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .modaltext{
+            width:23rem;
+            font-size:1.5rem;
+            color:rgba(21,30,38,0.75);
+            line-height:2.1rem;
+            text-align: center;
+            margin-bottom: 1.6rem;
+        }
+        .btn_box{
+            width:100%;
+            border-top: 1px solid #E5E5E5;
+            .btn{
+                flex: 1;
+                height:5rem;
+                line-height:5rem;
+                font-size:1.6rem;
+                color:rgba(96,147,255,1);
+                border-top: 1px solid #ccc;
+                text-align: center;
+                border-right: 1px solid #E5E5E5;
+                &:nth-last-child(1){
+                    border-right: 0;
+                }
+                &.cancle{
+                    color: #151E26;
+                }
+            }
+        }
+    
+    }
+}

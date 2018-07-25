@@ -1,0 +1,54 @@
+.my-item {
+	margin: 1.5rem 0 0 1.5rem;
+	width: 36rem;
+	overflow: hidden;
+	.item {
+		position: relative;
+		width: 36rem;
+		height: 5rem;
+		border-bottom: 1px solid rgba(229,229,229,1);
+		.icon-vip {
+			position: absolute;
+			margin: 1.3rem 0 0 0;
+			width: 2.4rem;
+			height: 2.4rem;
+		}
+		.outdate {
+			position: absolute;
+			height: 5rem;
+			line-height: 5rem;
+			left: 19rem;
+			color:rgba(21,30,38,0.35);
+			font-size: 1.4rem;
+		}
+		.pay {
+			position: absolute;
+			right: 1.5rem;
+			height: 5rem;
+			line-height: 5rem;
+			color:rgba(96,147,255,1);
+			font-size: 1.4rem;
+		}
+		.logo {
+			display: inline-block;
+			font-size: 2.4rem;
+			margin: 1.3rem 0 0 0;
+		}
+		.title {
+			position: absolute;
+			top: 1.4rem;
+			left: 3.2rem;
+			height: 2.2rem;
+			font-size: 1.6rem;
+			line-height: 2.2rem;
+			color:rgba(21,30,38,1);
+		}
+		.more {
+			position: absolute;
+			right: 0.6rem;
+			bottom: 1.3rem;
+			display: inline-block;
+			font-size: 1.5rem;
+		}
+	}
+}

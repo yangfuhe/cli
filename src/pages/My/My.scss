@@ -1,0 +1,38 @@
+.page-my {
+	padding-top: 1.8rem;
+	height: 100vh;
+	background: #ffffff;
+	.my-button {
+		margin: 4rem 0 0 50%;
+		transform: translateX(-50%);
+		height: 3rem;
+		width: 9rem;
+		background:#f8f8f8;
+		border-radius: 1.5rem;
+		border:1px solid rgba(0,0,0,0.1);
+		color:rgba(21,30,38,1);
+		line-height: 3rem;
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	.home {
+		position: absolute;
+		bottom: 8.4rem;
+		right: 3.4rem;
+		height: 5.4rem;
+		width: 5.4rem;
+		background:rgba(255,255,255,0.8);
+		border-radius: 100%;
+		box-shadow:0px 0px .6rem 0px rgba(96,147,255,0.25);
+		.logo {
+			position: absolute;
+			display: block;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			margin: 0 auto;
+			font-size: 3rem;
+			color: #6093FF;
+		}
+	}
+}

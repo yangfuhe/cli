@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="metaEle">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="http://jiaopeitoutiao-test.oss-cn-hangzhou.aliyuncs.com/mieba/homework/assets/fonts/iconfont.css" />
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="http://jiaopeitoutiao-test.oss-cn-hangzhou.aliyuncs.com/mieba/homework/assets/js/highstock.js"></script>
+    <script src="http://jiaopeitoutiao-test.oss-cn-hangzhou.aliyuncs.com/mieba/homework/assets/js/jweixin-1.3.2.js"></script>
+    <script src="https://cdn.bootcss.com/react/16.3.2/umd/react.production.min.js"></script>
+    <script src="https://cdn.bootcss.com/react-dom/16.3.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.bootcss.com/react-router-dom/4.2.2/react-router-dom.min.js"></script>
+    <script src="http://jiaopeitoutiao-test.oss-cn-hangzhou.aliyuncs.com/mieba/homework/assets/js/jweixin-1.3.2.js"></script>
+    <script>
+        var width = document.documentElement.clientWidth;
+        var dpr = window.devicePixelRatio
+		var scale = 1/dpr
+		var fontSize = width/37.5 * dpr + 'px'
+		document.getElementsByTagName('html')[0].style.fontSize = fontSize
+		var metaEle = document.getElementById("metaEle")   //这个是meta元素
+		metaEle.setAttribute('name', 'viewport');
+		metaEle.setAttribute('content', 'width=device-width, user-scalable=no,initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale);
+    </script>
+</body>
+
+</html>

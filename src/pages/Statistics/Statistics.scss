@@ -1,0 +1,60 @@
+.statistics {
+    height: 100vh;
+    position: relative;
+    .statistics-message {
+        position: relative;
+        height: 20rem;
+        width: 100vw;
+        background:rgba(96,147,255,1);
+        display: flex;
+        justify-content: space-between;
+        .item {
+            position: relative;
+            width: 50%;
+            color: #ffffff;
+            .number {
+                position: absolute;
+                top: .6rem;
+                height: 3.6rem;
+                line-height: 3.6rem;
+                text-align: center;
+                font-family:PingFangSC-Semibold;
+                font-size: 3rem;
+                width: 100%;
+            }
+            .title {
+                position: absolute;
+                top: 5rem;
+                height: 1.8rem;
+                line-height: 1.8rem;
+                font-size: 1.3rem;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .date {
+            height: 2.2rem;
+            width: 8.3rem;
+            line-height: 2.2rem;
+            position: absolute;
+            top: 8.3rem;
+            left: 14.6rem;
+            font-size: 1.6rem;
+            color:rgba(255,255,255,1);
+            .date-time {
+            }
+            .logo {
+                width: 1.8rem;
+                height: 1.8rem;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    .statistics-table {
+        position: absolute;
+        top: 11rem;
+        left: 1.5rem;
+    }
+}

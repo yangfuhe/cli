@@ -1,0 +1,39 @@
+.toast-it {
+    min-width: 13.2rem;
+    max-width: 29rem;
+    background-color: #555555;
+    color: #F4F4F4;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    animation-name: toast;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    line-height: 2.2rem;
+    opacity: 0;
+}
+.toast-it .logo {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 3.8rem;
+    height: 3.8rem;
+}
+@keyframes toast {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

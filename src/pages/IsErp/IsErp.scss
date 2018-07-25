@@ -1,0 +1,113 @@
+.iserp{
+    font-family:PingFangSC-Medium;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+    background: #fff;
+    height: 100%;
+
+    .title{
+        min-height:2.5rem;
+        font-size:1.8rem;
+        color:rgba(21,30,38,1);
+        line-height:2.5rem;
+        margin: 3.7rem 4rem 1.0rem 4.7rem;
+
+    }
+    .content{
+        margin-bottom: 6rem;
+        .select{
+            font-size:1.6rem;
+            color:rgba(21,30,38,1);
+            width:37.5rem;
+            margin: 0 4rem;
+            position: relative;
+            .til{
+                margin: 2.9rem 0;
+                outline: none;
+                display: flex;
+                justify-content: space-between;
+                .icon-tongyong_Success-solid{
+                    font-size:3rem ;
+                    color:#6093FF ;
+                }
+            }
+
+            .inp{
+                position: relative;
+                .trangle{
+                    width:0;
+                    height:0;
+                    border-width:0 1.0rem 0.7rem;
+                    border-style:solid;
+                    border-color:transparent transparent rgba(241,243,244,1);
+                    position: absolute;
+                    right: 10rem;
+                    top: -0.7rem;
+        
+                }
+            }
+
+        .line{
+            width: 76%;
+            height:0.1rem;
+            background:rgba(229,229,229,1);
+        }
+
+        .inputs{
+            width:29.5rem;
+            background:rgba(241,243,244,1);
+            padding: 1.2rem 1.5rem;
+            color:rgba(21,30,38,0.5);
+            line-height:2.1rem;
+            font-size:1.5rem;
+            overflow: hidden;
+            margin-bottom: 2.9rem;
+            outline: none;
+            border: 0;
+            resize:none;
+        }
+
+        }
+
+        .icon{
+           width: 2.2rem;
+           height: 2.2rem;
+           display: inline-block;
+           margin-right: 8.5rem;
+        }
+
+        .ant-input:focus {
+            outline: 0;
+            -webkit-box-shadow: 0 0 0 2px transparent;
+            box-shadow: 0 0 0 2px transparent; 
+        }
+    }
+    .tologin{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size:1.6rem;
+        button{
+            width:29.5rem;
+            height:4.4rem;
+            line-height: 4.4rem;
+            background:rgba(96,147,255,1);
+            border-radius:0.8rem;
+            color: #fff;
+            border: 0;
+            outline: none;
+
+        }
+    }
+    .showModal .modaltitle{
+        font-family:PingFangSC-Regular;
+        padding: 0 2.5rem;
+        text-align: center;
+        color:rgba(21,30,38,0.75);
+        font-size:1.5rem;
+    }
+   
+}
+

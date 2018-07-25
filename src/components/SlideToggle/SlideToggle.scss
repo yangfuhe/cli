@@ -1,0 +1,30 @@
+.SlideToggle{
+    width: 100%;
+    background: #fff;
+    .content{
+        height: 20.5rem;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+    .slide_btn{
+        height: 4.4rem;
+        width: 100%;
+        text-align: center;
+        color: #6093FF;
+        font-size: 1.6rem;
+        line-height: 4.4rem;
+        .icon{
+            display: inline-block;
+            transition: all .4s ease;
+            &.icondown{
+                transform: rotate(0);
+            }
+            &.iconup{
+                transform: rotate(180deg);
+            }
+        }
+        i{
+            font-size: 2.4rem;
+        }
+    }
+}

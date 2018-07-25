@@ -1,0 +1,25 @@
+.choose-org {
+	background: #ffffff;
+	.title {
+		text-indent: 0;
+		background: #ffffff;
+		position: relative;
+		margin-left: 1.5rem;
+		width: 36rem;
+		height: 5rem;
+		line-height: 5rem;
+		border-bottom: 1px solid rgba(229,229,229,1);
+		font-size: 1.6rem;
+		padding-right: 7rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		.logo {
+			width: 2.2rem;
+			height: 2.2rem;
+			position: absolute;
+			top: 1.4rem;
+			right: 1.5rem;
+		}
+	}
+}

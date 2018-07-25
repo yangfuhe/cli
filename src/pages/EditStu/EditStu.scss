@@ -1,0 +1,80 @@
+.edit-stu {
+	position: relative;
+	padding-top: 1rem;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow-y: hidden;
+	.delete {
+		float: right;
+		margin: 1.5rem 1.5rem 0 0;
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+	.input {
+		font-size: 1.6rem;
+		height: 4.4rem;
+		line-height: 4.4rem;
+		background: #ffffff;
+		input:-webkit-autofill,select:-webkit-autofill {
+			-webkit-box-shadow: 0 0 0px 1000px white  inset !important;
+		}   
+		input{
+			color:rgba(21,30,38,1);
+			margin-left: 1.5rem;
+			font-size: 1.6rem;
+			height: 4.4rem;
+			line-height: 4.4rem;
+			outline-color: invert ;
+			outline-style: none ;
+			outline-width: 0px ;
+			border: none ;
+			border-style: none ;
+			text-shadow: none ;
+			-webkit-appearance: none ;
+			-webkit-user-select: text ;
+			outline-color: transparent ;
+			box-shadow: none;
+		}
+		input::-webkit-input-placeholder { color:rgba(21,30,38,0.35); }
+		input::-moz-placeholder { color:rgba(21,30,38,0.35); } /* firefox 19+ */
+		input:-ms-input-placeholder { color:rgba(21,30,38,0.35); } /* Internet Explorer 10+ */
+		input:-moz-placeholder { color:rgba(21,30,38,0.35); } 
+	}
+	.relation {
+		position: relative;
+		height: 4.4rem;
+		line-height: 4.4rem;
+		padding-left: 1.5rem;
+		font-size: 1.6rem;
+		background: #ffffff;
+		margin-top: 1rem;
+		.choose-relation {
+			height: 4.4rem;
+			line-height: 4.4rem;
+			top: 0;
+			right: 1.5rem;
+			position: absolute;
+			font-size: 1.4rem;
+			color:rgba(21,30,38,0.35);
+			.more {
+				display: inline-block;
+				margin-left: 1rem;
+				font-size: 1.5rem;
+			}
+		}
+	}
+	.button {
+		margin: 5rem 0 0 1.5rem;
+		height: 4.4rem;
+		width: 34.5rem;
+		border-radius: .8rem;
+		font-size: 1.6rem;
+		text-align: center;
+		line-height: 4.4rem;
+		color: #ffffff;
+	}
+}

@@ -1,0 +1,44 @@
+.choose-relation-container .none {
+	display: none;
+}
+.choose-relation-list{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	background:rgba(0,0,0,0.5);
+	transition: all .3s;
+}
+#box {
+	transition: all .3s;
+}
+.choose-relation-container .box {
+	position: absolute;
+	z-index: 1000;
+	border-top-left-radius: .8rem;
+	border-top-right-radius: .8rem;
+	bottom: -24.4rem;
+	height: 24.4rem;
+	width: 100%;
+	background:#ffffff;
+	.cancel {
+		height: 4.4rem;
+		width: 100%;
+		line-height: 4.4rem;
+		text-indent: 1.5rem;
+		font-size: 1.6rem;
+	}
+	.item {
+		margin-left: 1.5rem;
+		width: 36rem;
+		font-size: 1.6rem;
+		line-height: 5rem;
+		height: 5rem;
+		border-bottom: 1px solid rgba(229,229,229,1);
+	}
+}
+.choose-relation-container .show {
+	bottom: 0;
+}

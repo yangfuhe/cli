@@ -1,0 +1,217 @@
+.WorkDetailOne{
+    
+    .stuwork_box{
+        padding-bottom: 1.5rem;
+        background: #fff;
+    }
+    .plzan_list{
+        margin-top: 1rem;
+        background: #fff;
+        .tab_head{
+            height: 4.4rem;
+            width: 100%;
+            padding: 0 1.5rem;
+            box-sizing: border-box;
+            background: #fff;
+            line-height: 4.4rem;
+            color: rgba(21,30,38,0.35);
+            font-size: 1.4rem;
+            span{
+                position: relative;
+                &.on{
+                    color: #151E26;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    em{
+                        position: absolute;
+                        display: block;
+                        height: .3rem;
+                        border-radius: .15rem;
+                        width: 50%;
+                        left: 50%;
+                        margin-left: -25%;
+                        background: #6093FF;
+                        bottom: 0;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+        .tab_item{
+            padding-top: 1rem;
+            .pj_box{
+                padding: 0 1.5rem;
+                .item{
+                    padding-top: 1rem;
+                    .head{
+                        flex-shrink: 0;
+                        width: 3.6rem;
+                        height: 3.6rem;
+                        border-radius: 50%;
+                        border: 1px solid #E5E5E5;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .pl_info{
+                        margin-left: .6rem;
+                        border-bottom: 1px solid #E5E5E5;
+                        padding-bottom: 1rem;
+                        .name{
+                            color: #F5A623;
+                            font-size: 1.6rem;
+                            line-height: 2.2rem;
+                        }
+                        .text{
+                            font-size: 1.5rem;
+                            line-height: 2.1rem;
+                            color: rgba(21,30,38,0.75);
+                            margin-top: .3rem;
+                        }
+                        .img_box{
+                            margin-top: .4rem;
+                            overflow: hidden;
+                            .img_item{
+                                width: 9.7rem;
+                                height: 9.7rem;
+                                margin-top: .6rem;
+                                background: #D8D8D8;
+                                float: left;
+                                margin-right: .6rem;
+                                &:nth-child(3n+3){
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                        .audio_box{
+                            margin-top: 1.1rem;
+                            overflow: hidden;
+                            .audio{
+                                float: left;
+                                margin-right: 1.3rem;
+                                &:nth-child(even){
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                        .timer{
+                            color: rgba(21,30,38,0.35);
+                            font-size: 1.2rem;
+                            line-height: 1.7rem;
+                            margin-top: 1rem;
+                        }
+                        .del_btn{
+                            color: #4F77D0;
+                            margin-left: 1.1rem;
+                        }
+                    }
+                }
+            }
+            .zan_box{
+                
+                .item{
+                    padding-left: 1.4rem;
+                    background: #fff;
+                    .head{
+                        width: 4.1rem;
+                        height: 4.1rem;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        flex-shrink: 0;
+                        margin: 1.1rem .4rem .8rem 0;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                    .name{
+                        color: #151E26;
+                        font-size: 1.6rem;
+                        border-bottom: 1px solid #E5E5E5;
+                        line-height: 4.1rem;
+                        padding: 1.1rem 0 .8rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .tloader-footer .tloader-btn,.tloader-loading{
+		font-size: 1.2rem;
+		line-height: 5rem;
+		color: rgba(21,30,38,.35);
+	}
+	.tloader-loading .ui-loading{
+		font-size: 1.2rem;
+		margin-right: .5rem;
+	}
+	.tloader{
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+        right: 0;
+        &.pb64{
+            padding-bottom: 6.4rem
+        }
+    }
+    .nodata{
+        height: 14.1rem;
+        line-height: 14.1rem;
+        text-align: center;
+        color: rgba(21,30,38,0.35);
+        font-size: 1.5rem;
+    }
+    .fixed_tab{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        height: 5.4rem;
+        background:rgba(255,255,255,0.9);
+        border-top:1px solid rgba(0,0,0,0.25);
+        .zan_btn{
+            width: 15rem;
+            height: 4.4rem;
+            background:rgba(96,147,255,1);
+            border-radius:.8rem;
+            margin: 0 1.5rem 0 2.2rem;
+            font-size: 1.6rem;
+            color: #fff;
+            text-align: center;
+            line-height: 4.4rem;
+        }
+        .btn{
+            color: rgba(21,30,38,0.5);
+            font-size: 1.3rem;
+            span{
+                text-align: center;
+                flex: 1;
+                line-height: 5.4rem;
+                position: relative;
+                &::after{
+                    content: '|';
+                    color: rgba(0,0,0,0.1);
+                    position: absolute;
+                    right: 0;
+                    font-size: 1.6rem;
+                }
+                &:nth-last-child(1):after{
+                    content: '';
+                }
+            }
+            i{
+                font-size: 2.1rem;
+                margin-right: .4rem;
+                vertical-align: middle;
+                &.red{
+                    color: #FE4A4A;
+                }
+            }
+        }
+    }
+}

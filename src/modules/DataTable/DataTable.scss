@@ -1,0 +1,79 @@
+.data-table {
+	position: relative;
+	border-radius: .4rem;
+	overflow: hidden;
+	z-index: 10;
+	width: 34.5rem;
+	height: 47.7rem;
+	background: #ffffff;
+	.tab {
+		position: absolute;
+		justify-content: space-between;
+		display: flex;
+		padding: 0 4.4rem;
+		top: 0.5rem;
+		width: 34.5rem;
+		height: 4.4rem;
+		.tab-item {
+			position: relative;
+			font-size: 1.4rem;
+			color:rgba(21,30,38,0.35);
+			line-height: 4.4rem;
+			.line {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 2rem;
+				height: .3rem;
+				background:rgba(96,147,255,1);
+				border-radius: .2rem;
+			}
+		}
+		.active {
+			font-size: 1.5rem;
+			font-family:PingFangSC-Medium;
+			color:rgba(21,30,38,1);
+		}
+	}
+	.message {
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		z-index: 111;
+		top: 8.4rem;
+		height: 3.3rem;
+		width: 100%;
+		.number {
+			text-indent: 4.5rem;
+			font-size: 1.2rem;
+			color:rgba(21,30,38,0.35);
+			line-height: 3.5rem;
+			// line-height: 1.7rem;
+			.digtial {
+				line-height: 3.3rem;
+				display: inline-block;
+				text-indent: 0;
+				padding-right: .3rem;
+				font-size: 2.4rem;
+				color:rgba(21,30,38,1);
+			}
+		}
+		.date {
+			position: absolute;
+			right: 1.5rem;
+			bottom: 0;
+			height: 1.8rem;
+			line-height: 1.8rem;
+			font-size: 1.3rem;
+			color:rgba(21,30,38,0.35);
+		}
+	}
+	.table {
+		position: absolute;
+		bottom: 0;
+		width: 34.5rem;
+		height: 35rem;
+	}
+}

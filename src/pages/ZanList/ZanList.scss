@@ -1,0 +1,134 @@
+.ZanList{
+    padding-bottom: 5rem;
+    overflow: hidden;
+    .header{
+        height: 18.2rem;
+        padding: 0 1.6rem;
+        background: #fff;
+        overflow: hidden;
+        position: relative;
+        .num{
+            &.me_num{
+                color: #F5A623;
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    text-align: center;
+                }
+            }
+        }
+        .logo{
+            width: 10rem;
+            height: 6.9rem;
+            margin: .3rem auto 0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .text{
+            font-size:1.3rem;
+            color:rgba(21,30,38,0.75);
+            line-height:1.8rem;
+            margin: 1.3rem 0 1.1rem;
+            text-align: center;
+        }
+        .info_box{
+            text-align: center;
+            .info{
+                border-top: 1px solid #E5E5E5;
+                height: 6.8rem;
+                display: inline-block;
+                overflow: hidden;
+                line-height: 6.8rem;
+                .name{
+                    color: #151E26;
+                    font-size: 2rem;
+                    display: inline-block;
+                    
+                }
+                .zanum{
+                    display: inline-block;
+                    color: #6093FF;
+                    font-size: 2rem;
+                    margin-left: 1.4rem;
+                    i{
+                        color: #FE4A4A;
+                        margin-left: .5rem;
+                        font-size: 2.1rem;
+                    }
+                }
+            }
+        }
+        .fx_btn{
+            
+        }
+    }
+    .list_box{
+		margin-top: 1rem;
+        background: #fff;
+        .item{
+            height: 5rem;
+            padding: 0 1.5rem 0 1.3rem;
+            .name{
+                color: #151E26;
+                font-size: 1.6rem;
+            }
+            span{
+                color:rgba(21,30,38,0.5);
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .num{
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+        color: #6093FF;
+        font-size: 1.8rem;
+        margin-right: .8rem;
+        background-size: contain;
+        vertical-align: middle;
+        img{
+            width: 100%;
+        }
+    }
+    .no_data{
+        color: rgba(21,30,38,0.35);
+        line-height: 2.1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        img{
+            width: 17rem;
+            height: 10rem;
+            margin: 17rem auto 1rem;
+            display: block;
+        }
+    }
+    .tloader-footer .tloader-btn,.tloader-loading{
+        font-size: 1.2rem;
+        line-height: 5rem;
+        color: rgba(21,30,38,.35);
+    }
+    .tloader-loading .ui-loading{
+        font-size: 1.2rem;
+        margin-right: .5rem;
+    }
+    .tloader{
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+}

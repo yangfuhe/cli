@@ -1,0 +1,18 @@
+.AudioBox{
+    border: 1px solid rgba(96,147,255,1);
+    width: 16.5rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #6093FF;
+    font-size: 1.7rem;
+    padding: 0 1.2rem;
+    box-sizing: border-box;
+    .flex-h{
+        height: 100%;
+        width: 100%;
+    }
+    .icon{
+        font-size:2.4rem;
+        margin-right: .7rem;
+    }
+}
